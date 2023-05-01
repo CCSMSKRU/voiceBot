@@ -123,5 +123,5 @@ bot.launch()
 
 process.once('SIGINT', ()=>bot.stop('SIGINT'))
 process.once('SIGTERM', ()=>bot.stop('SIGTERM'))
-process.once('SIGKILL', ()=>bot.stop('SIGKILL'))
-process.once('SIGSTOP', ()=>bot.stop('SIGSTOP'))
+// process.once('SIGKILL', ()=>bot.stop('SIGKILL'))
+// process.once('SIGSTOP', ()=>bot.stop('SIGSTOP'))
