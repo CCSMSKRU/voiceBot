@@ -3,3 +3,6 @@ node_modules
 config/**/*
 !config/1
 .vscode
+
+audio/**/*
+!audio/1
